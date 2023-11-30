@@ -658,6 +658,7 @@
   
     slider.addEventListener('mousedown', (e) => {
       isDown = true;
+      slider.style.cursor = 'pointer';
       startX = e.pageX - slider.offsetLeft;
       scrollLeft = slider.scrollLeft;
     });

@@ -100,6 +100,14 @@ font-size: 13px;}
 font-size: 28px;
 margin: 70px;
 margin-left: 100px;}
+.f1-1{
+  font-size: 20px;
+  margin-top: 20px;}
+  
+.f1-2{
+    font-size: 15px;
+    color:gray;
+    margin-top: 5px;}
 
 .image11{
 border-radius:10%;
@@ -116,3 +124,55 @@ margin-top: 20px;}
 
 .doctor{
   width:450px ;}
+  .image-grid {
+
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: grab;
+  }
+
+
+  .image-card1 {
+    overflow: hidden;
+    display: inline-block;
+    width: 580px; /* 카드 너비 조정 */
+    transition: transform 0.3s ease-in-out;
+    margin-top: 20px;
+  }
+  .image-card {
+    overflow: hidden;
+    display: inline-block;
+    width: 580px; /* 카드 너비 조정 */
+    transition: transform 0.3s ease-in-out;
+    margin-left: -160px;
+  }
+  .image-card1 img {
+    width: 70%;
+    height: auto;
+    display: block;
+    border-radius: 15px;
+  }
+
+  .image-card img {
+    width: 70%;
+    height: auto;
+    display: block;
+    border-radius: 15px;
+  }
+footer{
+background-color: black;}
+
+hr{
+width: 70%;
+margin-top: 15px;
+color: gray;}
+
+.miniimg{
+width: 70px;
+margin-top: 10px;}
+
+.minitext{
+font-size: 15px;
+color: gray;}

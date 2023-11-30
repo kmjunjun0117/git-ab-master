@@ -68,3 +68,4 @@
 	.section input[id="slide07"]:checked ~ .slidewrap .slide-pagelist > li:nth-child(7) > label {background:#2f92f5; width: 20px;}
 	.section input[id="slide08"]:checked ~ .slidewrap .slide-pagelist > li:nth-child(8) > label {background:#2f92f5; width: 20px;}
 	.section input[id="slide09"]:checked ~ .slidewrap .slide-pagelist > li:nth-child(9) > label {background:#2f92f5; width: 20px;}
+

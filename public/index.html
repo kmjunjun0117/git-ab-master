@@ -563,6 +563,13 @@
       <hr>
       <div class = "miniimg"><img src="img/mini1.jpg"> </div>
       <div class = "minitext"><p class = regular>자려한 코성형</p></div>
+      <div class = "detail"><p class = regular>더보기 ></p></div>
+
+      <hr>
+      <div class = "miniimg"><img src="img/mini1-1.jpg"> </div>
+      <div class = "minitext"><p class = regular>에이비 코재수술</p></div>
+      <div class = "detail"><p class = regular>더보기 ></p></div>
+
 
     </div>
     <div class="image-card">
@@ -570,30 +577,75 @@
       <div class = "f1-1"><p class = bold><strong>남자를 잘 아는 에이비 남자성형</strong></p></div>
       <div class = "f1-2"><p class = regular>남자들이 에이비를 찾는데 이유가 있다</p></div>
       <hr>
+      <div class = "miniimg"><img src="img/mini2.jpg"> </div>
+      <div class = "minitext"><p class = regular>남자 눈매 교정</p></div>
+      <div class = "detail"><p class = regular>더보기 ></p></div>
+
+      <hr>
+      <div class = "miniimg"><img src="img/mini2-1.jpg"> </div>
+      <div class = "minitext"><p class = regular>자려한 직선코성형</p></div>
+      <div class = "detail"><p class = regular>더보기 ></p></div>
+
     </div>
     <div class="image-card">
       <img src="img/1item04.jpg" alt="Image 3">
       <div class = "f1-1"><p class = bold><strong>보정없이 단번에 이뻐지는 얼굴, 안면윤곽</strong></p></div>
       <div class = "f1-2"><p class = regular>작고 매끄럽고 갸름하게</p></div>
       <hr>
+      <div class = "miniimg"><img src="img/mini3.jpg"> </div>
+      <div class = "minitext"><p class = regular>에이비 안면윤곽</p></div>
+      <div class = "detail"><p class = regular>더보기 ></p></div>
+
+      <hr>
+      <div class = "miniimg"><img src="img/mini3-1.jpg"> </div>
+      <div class = "minitext"><p class = regular>광대축소</p></div>
+      <div class = "detail"><p class = regular>더보기 ></p></div>
+
     </div>
     <div class="image-card">
       <img src="img/1item02.jpg" alt="Image 4">
       <div class = "f1-1"><p class = bold><strong>내게 제일 잘 어울리는 눈</strong></p></div>
       <div class = "f1-2"><p class = regular>처음부터 마지막까지 예쁘게 자리 잡는 눈성형</p></div>
       <Hr>
+        <div class = "miniimg"><img src="img/mini4.jpg"> </div>
+        <div class = "minitext"><p class = regular>자려한 투명유착</p></div>
+        <div class = "detail"><p class = regular>더보기 ></p></div>
+
+        <hr>
+        <div class = "miniimg"><img src="img/mini4-1.jpg"> </div>
+        <div class = "minitext"><p class = regular>에이비 라인낮추기</p></div>
+        <div class = "detail"><p class = regular>더보기 ></p></div>
+
     </div>
     <div class="image-card">
       <img src="img/1item05.jpg" alt="Image 5">
       <div class = "f1-1"><p class = bold><strong>C부터 E까지 모두 대만족</strong></p></div>
       <div class = "f1-2"><p class = regular>빈틈없이 꽉 찬 가슴, 원하는 사이즈까지</p></div>
       <hr>
+      <div class = "miniimg"><img src="img/mini5.jpg"> </div>
+      <div class = "minitext"><p class = regular>CDE 가슴성형</p></div>
+      <div class = "detail"><p class = regular>더보기 ></p></div>
+
+      <hr>
+      <div class = "miniimg"><img src="img/mini5-1.jpg"> </div>
+      <div class = "minitext"><p class = regular>모티바 가슴성형</p></div>
+      <div class = "detail"><p class = regular>더보기 ></p></div>
+
     </div>
     <div class="image-card">
       <img src="img/1item06.jpg" alt="Image 6">
       <div class = "f1-1"><p class = bold><strong>동안의 정석, 에이비 중년성형</strong></p></div>
       <div class = "f1-2"><p class = regular>자연스럽고 안전한 맞춤 동안 솔루션</p></div>
       <hr>
+      <div class = "miniimg"><img src="img/mini3.jpg"> </div>
+      <div class = "minitext"><p class = regular>미니하안검</p></div>
+      <div class = "detail"><p class = regular>더보기 ></p></div>
+
+      <hr>
+      <div class = "miniimg"><img src="img/mini3-1.jpg"> </div>
+      <div class = "minitext"><p class = regular>이마거상</p></div>
+      <div class = "detail"><p class = regular>더보기 ></p></div>
+
     </div>
   </div>
   
@@ -606,19 +658,18 @@
   
     slider.addEventListener('mousedown', (e) => {
       isDown = true;
-      slider.style.cursor = 'grabbing';
       startX = e.pageX - slider.offsetLeft;
       scrollLeft = slider.scrollLeft;
     });
   
     slider.addEventListener('mouseleave', () => {
       isDown = false;
-      slider.style.cursor = 'grab';
+      slider.style.cursor = 'pointer';
     });
   
     slider.addEventListener('mouseup', () => {
       isDown = false;
-      slider.style.cursor = 'grab';
+      slider.style.cursor = 'pointer';
     });
   
     slider.addEventListener('mousemove', (e) => {

@@ -166,13 +166,22 @@ background-color: black;}
 
 hr{
 width: 70%;
-margin-top: 15px;
+margin-top: 25px;
 color: gray;}
 
 .miniimg{
 width: 70px;
-margin-top: 10px;}
+margin-top: 10px;
+float: left;}
 
 .minitext{
-font-size: 15px;
-color: gray;}
+font-size: 13px;
+color: gray;
+margin-top: 25px;
+}
+
+.detail{
+color: rgb(0, 89, 255);
+font-size: 13px;
+margin-left: 350px;
+margin-top: -20px;}

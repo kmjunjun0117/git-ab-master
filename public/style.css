@@ -99,7 +99,8 @@ font-size: 13px;}
 .f1{
 font-size: 28px;
 margin: 70px;
-margin-left: 100px;}
+margin-left: 100px;
+;}
 .f1-1{
   font-size: 20px;
   margin-top: 20px;}
@@ -178,6 +179,7 @@ float: left;}
 font-size: 13px;
 color: gray;
 margin-top: 25px;
+
 }
 
 .detail{
@@ -185,3 +187,14 @@ color: rgb(0, 89, 255);
 font-size: 13px;
 margin-left: 350px;
 margin-top: -20px;}
+
+img {
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+}
+
+a{
+text-decoration-line:none ;
+color: inherit;}
